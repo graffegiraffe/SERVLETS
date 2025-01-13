@@ -1,0 +1,19 @@
+2025-01-13 19:38:17 [INFO] HomeServlet: processing GET request
+2025-01-13 19:38:17 [INFO] HomeServlet: unauthorized access attempt, user not found in session
+2025-01-13 19:44:05 [INFO] LoginServlet: handling login request
+2025-01-13 19:44:05 [INFO] LoginServlet: received username: kate
+2025-01-13 19:44:47 [INFO] LoginServlet: handling login request
+2025-01-13 19:44:47 [INFO] LoginServlet: received username: kate
+2025-01-13 19:45:02 [INFO] LoginServlet: handling login request
+2025-01-13 19:45:02 [INFO] LoginServlet: received username: admin
+2025-01-13 19:45:02 [INFO] User logged in: admin
+2025-01-13 19:45:02 [INFO] LoginServlet: user admin authenticated with role ADMIN
+2025-01-13 19:46:45 [INFO] LoginServlet: handling login request
+2025-01-13 19:46:45 [INFO] LoginServlet: received username: kate
+2025-01-13 19:47:53 [INFO] User logged out: admin
+2025-01-13 19:48:09 [INFO] LoginServlet: handling login request
+2025-01-13 19:48:09 [INFO] LoginServlet: received username: kate
+2025-01-13 19:48:09 [INFO] User logged in: kate
+2025-01-13 19:48:09 [INFO] LoginServlet: user kate authenticated with role ADMIN
+2025-01-13 19:48:24 [INFO] HomeServlet: processing GET request
+2025-01-13 19:48:24 [INFO] HomeServlet: user kate with role ADMIN accessed home page
